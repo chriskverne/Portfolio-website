@@ -59,6 +59,26 @@ const Experiences = () => {
     ]
   }
 
+  const experience4 = {
+    company: 'INIT',
+    imgURL: '/init_fiu_logo.jpg',
+    title: 'Ambassador',
+    startDate: 'January 2024',
+    endDate: 'April 2024',
+    subSections : [
+        { subTitle: 'SGA Representative',
+          description: [
+            "Advocated for INIT at FIU's student government to increase funding and membership."
+          ]
+        }, { subTitle: 'Shellhacks Leader',
+          description: [
+            "Hosted Florida’s largest hackathon, lasting 3 days, with 1200 attendees, and 18 sponsors.",
+            "Led 2 workshops, held a teambuilding activity, and a game tournament."
+          ]
+        }
+    ]
+  }
+
 
   return (
     <div className='mt-5'>
@@ -69,6 +89,7 @@ const Experiences = () => {
         <Experience job={experience1} />
         <Experience job={experience2} />
         <Experience job={experience3} />
+        <Experience job={experience4} />
       </div>
     </div>
   )
