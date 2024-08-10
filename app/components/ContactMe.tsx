@@ -1,0 +1,48 @@
+import React from 'react'
+import Title from './Title'
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { TbMailFilled } from "react-icons/tb";
+import Link from 'next/link'
+
+const ContactMe = () => {
+  return (
+    <div className='flex justify-center mt-4 mb-4'>
+      <div className='flex space-x-10'>
+        <Link href={'https://www.linkedin.com/in/christopher-lukas-kverne-95baa1249/'} target="_blank">
+          <FaLinkedin style={iconStyle} />
+        </Link>
+
+        <Link href={'https://github.com/chriskverne'} target="_blank">
+          <FaGithub style={iconStyle} />
+        </Link>
+
+        <Link href={'mailto:chris.kverne@gmail.com'} target="_blank">
+          <TbMailFilled style={iconStyle} />
+        </Link>
+
+      </div>
+
+      <style jsx>{`
+        .flex {
+          display: flex;
+        }
+        .flex :global(svg) {
+          font-size: 2rem;
+          transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .flex :global(svg:hover) {
+          transform: scale(1.2);
+          color: #0077b5;
+        }
+      `}
+      </style>
+    </div>
+  )
+}
+
+const iconStyle = {
+  fontSize: '3rem',
+  transition: 'transform 0.3s ease, color 0.3s ease',
+};
+
+export default ContactMe

@@ -3,8 +3,7 @@ import React from 'react';
 const Experience = ({ job }) => {
   const { company, imgURL, title, startDate, endDate, subSections } = job;
   return (
-    <div className='flex justify-center mb-5'>
-      <div className=" border-gray-200 w-4/6">
+      <div className='mb-5'>
         <div className="flex items-center">
           <img src={imgURL} alt={`${company} logo`} className="h-16 mr-4" />
           <div>
@@ -24,7 +23,6 @@ const Experience = ({ job }) => {
           </div>
         ))}
       </div>
-    </div>
   );
 };
 

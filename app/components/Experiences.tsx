@@ -1,5 +1,6 @@
 import React from 'react'
 import Experience from './Experience'
+import Title from './Title'
 
 const Experiences = () => {
   const experience1 = {
@@ -68,7 +69,8 @@ const Experiences = () => {
     subSections : [
         { subTitle: 'SGA Representative',
           description: [
-            "Advocated for INIT at FIU's student government to increase funding and membership."
+            "Elected as one of FIU’s engineering senator, advocating for INIT",
+            "Increased membership by 100 students and funding by 5000$ USD."
           ]
         }, { subTitle: 'Shellhacks Leader',
           description: [
@@ -79,18 +81,24 @@ const Experiences = () => {
     ]
   }
 
+  const experiences = [experience1, experience2, experience3, experience4];
+
 
   return (
-    <div className='mt-5'>
-      <div className='ml-[10%]'>
-        <h1 className='text-[4rem] font-semibold'>Experience</h1>
+    <div className=''>
+
+      <div className='flex flex-col items-center'>
+        <div className='w-4/5'>
+          <Title title={"Experience"} />
+        </div>
+
+        <div className=' w-4/5'>
+          {experiences.map((experience, i) => (
+            <Experience key={i} job={experience} />
+          ))}
+        </div>
       </div>
-      <div className='mt-5'>
-        <Experience job={experience1} />
-        <Experience job={experience2} />
-        <Experience job={experience3} />
-        <Experience job={experience4} />
-      </div>
+
     </div>
   )
 }

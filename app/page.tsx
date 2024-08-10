@@ -4,6 +4,8 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Experience from './components/Experiences';
+import Research from './components/Research';
+import ContactMe from './components/ContactMe';
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <NavBar />
       {/*<About />*/}
       <Experience />
+      <Research />
+      <ContactMe />
     </main>
   );
 }
