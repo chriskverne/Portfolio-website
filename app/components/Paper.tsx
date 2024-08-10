@@ -13,11 +13,11 @@ const Paper = ({paper}) => {
       )}
 
       {paper.underReview && (
-        <p className=' font-bold'>Under review at the {paper.conference} conference</p>
+        <p className='font-bold'>Under review at the {paper.conference} conference</p>
       )}
 
       {paper.workingOn && (
-        <p className=' font-bold '>Currently working on it, Please read it when it comes out ;)</p>
+        <p className='font-bold '>Currently working on it, Please read it when it comes out</p>
       )}
 
       <div>

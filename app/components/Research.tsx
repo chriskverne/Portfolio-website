@@ -4,7 +4,7 @@ import Paper from './Paper'
 import Link from 'next/link'
 
 const paper1 = {
-    title: 'MoKE: Modular Key-value Emulator for Realistic Studies on Emerging Storage Devices',
+    title: "MoKE: Modular Key-value Emulator for Realistic Studies on Emerging Storage Devices",
     description: [],
     conference: null,
     link: null,
