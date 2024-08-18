@@ -17,7 +17,7 @@ const Experience = ({ job }) => {
             {section.subTitle && <h4 className="text-md font-semibold">{section.subTitle}</h4>}
             <ul className="list-disc list-inside">
               {section.description.map((desc, idx) => (
-                <li key={idx} className="text-sm mb-1">{desc}</li>
+                <li key={idx} className="mb-1">{desc}</li>
               ))}
             </ul>
           </div>

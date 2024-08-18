@@ -85,20 +85,16 @@ const Experiences = () => {
 
 
   return (
-    <div className=''>
-
-      <div className='flex flex-col items-center'>
-        <div className='w-4/5'>
-          <Title title={"Experience"} />
-        </div>
-
-        <div className=' w-4/5'>
-          {experiences.map((experience, i) => (
-            <Experience key={i} job={experience} />
-          ))}
-        </div>
+    <div className='flex flex-col items-center'>
+      <div className='w-4/5'>
+        <Title title={"Experience"} />
       </div>
 
+      <div className=' w-4/5'>
+        {experiences.map((experience, i) => (
+          <Experience key={i} job={experience} />
+        ))}
+      </div>
     </div>
   )
 }
