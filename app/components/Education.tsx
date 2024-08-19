@@ -20,7 +20,7 @@ const courseWork = [
   { 'Machine Learning': '' }, 
   { 'Software Engineering': '' }, 
   { 'Capstone 1': '' }, 
-  { 'Operating Systems': '' }
+  { 'Operating Systems': '' }, 
 ]
 
 const Research = () => {
@@ -32,11 +32,22 @@ const Research = () => {
 
       <div className='w-4/5 flex flex-col'>
 
-        <div className='flex mb-2'>
+        <div className='flex flex-col mb-2 sm:flex-row sm:space-y-0 sm:space-x-3 text-lg'>
+          <div className='flex'>
+            <h3 className='font-semibold'>Bachelor of Science:&nbsp;</h3>
+            <p className='italic'>Computer Science</p>
+          </div>
+          <div className='flex'>
+            <h3 className='font-semibold'>Minor:&nbsp;</h3>
+            <p className='italic'>Mathematics</p>
+          </div>
+        </div>
+
+        <div className='flex flex-col md:flex-row mb-2 '>
           <h3 className='font-semibold text-lg'>Honors and awards:</h3>
-          <div className='flex ml-2'>
+          <div className='flex flex-col md:flex-row md:ml-2'>
             {awards.map((award, index) => (
-              <p className='ml-2 text-lg' key={index}>{award},</p>
+              <p className='md:ml-2 text-lg' key={index}>{award},</p>
             ))}
           </div>
         </div>
