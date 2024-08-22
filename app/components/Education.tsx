@@ -45,9 +45,9 @@ const Research = () => {
 
         <div className='flex flex-col md:flex-row mb-2 '>
           <h3 className='font-semibold text-lg'>Honors and awards:</h3>
-          <div className='flex flex-col md:flex-row md:ml-2'>
+          <div className='flex flex-col md:flex-row ml-1'>
             {awards.map((award, index) => (
-              <p className='md:ml-2 text-lg' key={index}>{award},</p>
+              <p className='text-lg mr-3' key={index}>{award}</p>
             ))}
           </div>
         </div>
