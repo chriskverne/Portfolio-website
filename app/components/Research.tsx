@@ -35,7 +35,7 @@ const paper3 = {
 
 const Research = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center mb-5'>
       <div className='w-4/5'>
         <Title title={"Research"} />
       </div>

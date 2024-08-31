@@ -3,7 +3,7 @@ import React from 'react'
 
 const Paper = ({paper}) => {
   return (
-    <div className='mt-3 bg-slate-100 p-3 rounded-md'>
+    <div className='mt-3 bg-[#e5e5e5] p-3 rounded-md'>
       <p className='text-lg'>{paper.title}</p>
       {paper.isPublished && (
         <div>
