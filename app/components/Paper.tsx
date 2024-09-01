@@ -6,10 +6,9 @@ const Paper = ({paper}) => {
     <div className='mt-3 bg-[#e5e5e5] p-3 rounded-md'>
       <p className='text-lg'>{paper.title}</p>
       {paper.isPublished && (
-        <div>
-          <p className='text-green-500 font-bold'>Published here: </p>
-          <Link href={paper.link} />
-        </div>
+        <Link href={paper.link}>
+          <p className='text-green-500 font-bold text-lg'>{paper.conference}</p>
+        </Link>
       )}
 
       {paper.underReview && (

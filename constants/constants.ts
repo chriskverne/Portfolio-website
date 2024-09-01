@@ -21,7 +21,6 @@ export const courseWork = [
 
 export const awards = ['Global Scholarship ($6300)', 'Dean’s list 4x', 'NSF Stipend ($4250)'];
 
-
 const experience1 = {
     company: 'NG Group',
     imgURL: '/logo2.svg',
@@ -101,3 +100,33 @@ const experience1 = {
   }
 
 export const experiences = [experience1, experience2, experience3, experience4];
+
+export const paper1 = {
+  title: "Emulating In-Storage Indexing for High Performance Key-Value Storage Devices",
+  description: [],
+  conference: null,
+  link: null,
+  isPublished: false,
+  underReview: false,
+  workingOn: true
+}
+
+export const paper2 = {
+  title: "Course-Job Fit: Leveraging Language Models to Understand the Relevance of Computer Science Courses to Employment Opportunities",
+  description: [],
+  conference: 'SigCSE 2025',
+  link: null,
+  isPublished: false,
+  underReview: true,
+  workingOn: false
+}
+
+export const paper3 = {
+  title: "LLM CS Advising Agent",
+  description: [],
+  conference: null,
+  link: null,
+  isPublished: false,
+  underReview: false,
+  workingOn: true
+}
