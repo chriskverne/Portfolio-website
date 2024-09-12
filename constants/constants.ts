@@ -43,7 +43,7 @@ const experience1 = {
     company: 'Data Management Research Laboratory',
     imgURL: '/daMRLLogo.png',
     title: 'Research Intern',
-    startDate: 'January 2024',
+    startDate: 'November 2023',
     endDate: 'Present',
     subSections : [
         { subTitle: 'Educational NLP Project:',
