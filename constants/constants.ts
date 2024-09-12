@@ -66,7 +66,7 @@ const experience1 = {
   const experience3 = {
     company: 'Florida International University',
     imgURL: '/FIULogo.png',
-    title: 'Teaching Assistant',
+    title: 'Learning Assistant',
     startDate: 'January 2024',
     endDate: 'April 2024',
     subSections : [
@@ -81,9 +81,9 @@ const experience1 = {
   const experience4 = {
     company: 'INIT',
     imgURL: '/init_fiu_logo.jpg',
-    title: 'Ambassador',
-    startDate: 'January 2024',
-    endDate: 'April 2024',
+    title: 'SGA Ambassador',
+    startDate: 'December 2022',
+    endDate: 'August 2023',
     subSections : [
         { subTitle: 'SGA Representative',
           description: [
@@ -99,7 +99,22 @@ const experience1 = {
     ]
   }
 
-export const experiences = [experience1, experience2, experience3, experience4];
+  const experience5 = {
+    company: 'Florida International University',
+    imgURL: '/FIULogo.png',
+    title: 'Teaching Assistant',
+    startDate: 'August 2024',
+    endDate: 'Present',
+    subSections : [
+        { subTitle: '',
+          description: [
+            'Tutored a class of 40+ students in data structures and algorithms. Held weekly office hours and graded homework and exams.'
+          ]
+        }
+    ]
+  }
+
+export const experiences = [experience2, experience5, experience1, experience3, experience4];
 
 export const paper1 = {
   title: "Emulating In-Storage Indexing for High Performance Key-Value Storage Devices",
