@@ -21,6 +21,7 @@ export const courseWork = [
 
 export const awards = ['Global Scholarship ($6300)', 'Dean’s list 4x', 'NSF Stipend ($4250)'];
 
+// Work Experience
 const experience1 = {
     company: 'NG Group',
     imgURL: '/logo2.svg',
@@ -99,7 +100,7 @@ const experience1 = {
     ]
   }
 
-  const experience5 = {
+const experience5 = {
     company: 'Florida International University',
     imgURL: '/FIULogo.png',
     title: 'Teaching Assistant',
@@ -112,10 +113,11 @@ const experience1 = {
           ]
         }
     ]
-  }
+}
 
 export const experiences = [experience2, experience5, experience1, experience3, experience4];
 
+// Research papers
 export const paper1 = {
   title: "Emulating In-Storage Indexing for High Performance Key-Value Storage Devices",
   description: [],
@@ -144,4 +146,35 @@ export const paper3 = {
   isPublished: false,
   underReview: false,
   workingOn: true
+}
+
+// Projects:
+export const project1 = {
+  title: 'LSM Key Value Store',
+  link: 'https://github.com/chriskverne/NoSQL-Database',
+  description: [
+    'Developed an in-memory key-value store (MemTable) with efficient data persistence mechanisms, enabling fast lookups, inserts, and deletions, and dynamically flushing data to disk upon reaching capacity.',
+    'Implemented a Log-Structured Merge Tree (LSM Tree) to manage multi-level disk storage, optimizing data compaction, merging processes, using tombstones for deletion management.',
+    'Designed a Skip List data structure to enhance in-memory operations with O(log⁡n) searches and O(1) updates, tailored for rapid data access in the MemTable'
+  ]
+}
+
+export const project2 = {
+  title: 'Neural Network (From Scratch)',
+  link: 'https://github.com/chriskverne/Neural-Network-from-Scratch',
+  description: [
+    'Implemented a neural network from scratch in python only using NumPy matrices.',
+    'Designed custom ReLU and Softmax activation functions along with categorical cross-entropy loss for forward and backwards propagation.',
+    'Designed RMSProp, SGD, Adagrad and ADAM optimizers with learning rate decay.',
+    'Trained the neural network on a spiral dataset achieving an accuracy of 91%.'
+  ]
+}
+
+export const project3 = {
+  title: 'Fake News Detector',
+  link: 'https://github.com/chriskverne/FakeNewsDetector',
+  description: [
+    'Worked with a team of 4 students at the Knighthacks hackathon by developing a model that detects fake news.',
+    'Created a stemming algorithm that removes non important information. Vectorized text with TF-IDF and trained a linear regression model from tensorflow with a final accuracy of 98.2%.',
+  ]
 }
