@@ -2,7 +2,7 @@ import React from 'react'
 import Title from './Title'
 import Project from './Project';
 import { title } from 'process';
-import { project1, project2, project3 } from '@/constants/constants';
+import { project1, project2, project3, project4 } from '@/constants/constants';
 
 const Projects = () => {
   return (
@@ -15,6 +15,7 @@ const Projects = () => {
         <Project project={project1}/>
         <Project project={project2} />
         <Project project={project3} />
+        <Project project={project4} />
       </div>
     </div>
   )

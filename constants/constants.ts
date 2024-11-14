@@ -149,13 +149,13 @@ export const paper3 = {
 }
 
 // Projects:
-export const project1 = {
+export const project4 = {
   title: 'LSM Key Value Store',
   link: 'https://github.com/chriskverne/NoSQL-Database',
   description: [
-    'Developed an in-memory key-value store (MemTable) with efficient data persistence mechanisms, enabling fast lookups, inserts, and deletions, and dynamically flushing data to disk upon reaching capacity.',
-    'Implemented a Log-Structured Merge Tree (LSM Tree) to manage multi-level disk storage, optimizing data compaction, merging processes, using tombstones for deletion management.',
-    'Designed a Skip List data structure to enhance in-memory operations with O(log⁡n) searches and O(1) updates, tailored for rapid data access in the MemTable'
+    'Developed an in-memory key-value store (MemTable) with dynamica flushing to disk upon reaching capacity.',
+    'Implemented a LSM Tree to manage multi-level disk storage using tombstones for deletion management.',
+    'Designed a Skip List data structure to enhance in-memory operations with O(log⁡n) searches and O(1) updates.'
   ]
 }
 
@@ -164,9 +164,8 @@ export const project2 = {
   link: 'https://github.com/chriskverne/Neural-Network-from-Scratch',
   description: [
     'Implemented a neural network from scratch in python only using NumPy matrices.',
-    'Designed custom ReLU and Softmax activation functions along with categorical cross-entropy loss for forward and backwards propagation.',
-    'Designed RMSProp, SGD, Adagrad and ADAM optimizers with learning rate decay.',
-    'Trained the neural network on a spiral dataset achieving an accuracy of 91%.'
+    'Designed custom ReLU and Softmax activation functions along with categorical crossentropy loss for forward and backwards propagation.',
+    'Designed RMSProp, SGD, Adagrad and ADAM optimizers with learning rate decay.'
   ]
 }
 
@@ -175,6 +174,16 @@ export const project3 = {
   link: 'https://github.com/chriskverne/FakeNewsDetector',
   description: [
     'Worked with a team of 4 students at the Knighthacks hackathon by developing a model that detects fake news.',
-    'Created a stemming algorithm that removes non important information. Vectorized text with TF-IDF and trained a linear regression model from tensorflow with a final accuracy of 98.2%.',
+    'Created a stemming algorithm, vectorized text with TF-IDF and trained a linear regression model from tensorflow with a final accuracy of 98.2%.',
+  ]
+}
+
+export const project1 = {
+  title: 'Encoder-Decoder LSTM Summary Model',
+  link: 'https://github.com/chriskverne/seq2seq-LSTM-Text-Summarizer',
+  description: [
+    'Developed an Encoder-Decoder LSTM-network for summarizing text in PyTorch.',
+    'Trained model on the EdinburghNLP XSum dataset with custom data preprocessing and tokenization using the Roberta tokenizer.',
+    'Utilized teacher forcing and greedy decoding methods to improve training dynamics and summary generation.'
   ]
 }
