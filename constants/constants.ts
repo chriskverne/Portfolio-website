@@ -13,11 +13,26 @@ export const courseWork = [
     { 'Physics 2': 'B+' }, 
     { 'Physics 2 Lab': 'A' }, 
     { 'Technology in Global Arena': 'A' }, 
-    { 'Machine Learning': '' }, 
+    { 'Machine Learning': 'A' }, 
     { 'Software Engineering': '' }, 
     { 'Capstone 1': '' }, 
-    { 'Operating Systems': '' }, 
+    { 'Operating Systems': 'A' }, 
 ];
+
+export const mathCourses = [
+  { 'Calculus 1': 'A' }, 
+  { 'Calculus 2': 'A' }, 
+  { 'Physics 1': 'A-' }, 
+  { 'Discrete Mathematics': 'A' }, 
+  { 'Probability & Statistics': 'A' }, 
+  { 'Physics 2': 'B+' }, 
+  { 'Linear Algebra': 'In Progress' }, 
+  { 'Multivariabel Calculus': 'In Progress' }, 
+  { 'Graph Theory': 'In Progress' }, 
+  { 'Theory of Algorithms': 'In Progress' }, 
+
+];
+
 
 export const awards = ['Global Scholarship ($6300)', 'Dean’s list 4x', 'NSF Stipend ($4250)'];
 
