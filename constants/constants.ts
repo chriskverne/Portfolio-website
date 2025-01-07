@@ -14,9 +14,13 @@ export const courseWork = [
     { 'Physics 2 Lab': 'A' }, 
     { 'Technology in Global Arena': 'A' }, 
     { 'Machine Learning': 'A' }, 
-    { 'Software Engineering': '' }, 
-    { 'Capstone 1': '' }, 
+    //{ 'Software Engineering': '' }, 
+    { 'Capstone 1': 'A' }, 
     { 'Operating Systems': 'A' }, 
+    {'Linear Algebra': ''},
+    {'Multivarible Calculus' : ''},
+    {'Graph Theory': ''},
+    {'Quantum Computing' : ''}
 ];
 
 export const mathCourses = [

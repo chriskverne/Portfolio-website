@@ -3,20 +3,20 @@ import React from 'react'
 
 const Paper = ({paper}) => {
   return (
-    <div className='mt-3 bg-[#e5e5e5] p-3 rounded-md'>
-      <p className='text-lg'>{paper.title}</p>
+    <div className='mb-6 bg-[#e5e5e5] p-3 rounded-md'>
+      <p className='text-xl'>{paper.title}</p>
       {paper.isPublished && (
         <Link href={paper.link}>
-          <p className='text-green-500 font-bold text-lg'>{paper.conference}</p>
+          <p className='text-green-500 font-bold text-xl'>{paper.conference}</p>
         </Link>
       )}
 
       {paper.underReview && (
-        <p className='font-bold'>Under review at the {paper.conference} conference</p>
+        <p className='font-bold text-xl'>Under review at the {paper.conference} conference</p>
       )}
 
       {paper.workingOn && (
-        <p className='font-bold '>Currently working on it, Please read it when it comes out</p>
+        <p className='font-bold text-xl'>Currently working on it, Please read it when it comes out</p>
       )}
 
       <div>
