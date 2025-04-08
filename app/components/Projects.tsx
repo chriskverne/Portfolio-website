@@ -1,8 +1,7 @@
 import React from 'react'
 import Title from './Title'
-import Project from './Project';
-import { title } from 'process';
-import { project1, project2, project3, project4 } from '@/constants/constants';
+import Project from './Project'
+import { projects } from '@/constants/constants'
 
 const Projects = () => {
   return (
@@ -12,10 +11,9 @@ const Projects = () => {
       </div>
 
       <div className='w-4/5 flex flex-col'>
-        <Project project={project1}/>
-        <Project project={project2} />
-        <Project project={project3} />
-        <Project project={project4} />
+        {projects.map((project, index) => (
+          <Project key={index} project={project} />
+        ))}
       </div>
     </div>
   )

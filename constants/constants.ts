@@ -87,8 +87,8 @@ const experience1 = {
     company: 'Florida International University',
     imgURL: '/FIULogo.png',
     title: 'Learning Assistant',
-    startDate: 'January 2024',
-    endDate: 'April 2024',
+    startDate: 'January 2023',
+    endDate: 'April 2023',
     subSections : [
         { subTitle: '',
           description: [
@@ -98,33 +98,33 @@ const experience1 = {
     ]
   }
 
-  const experience4 = {
-    company: 'INIT',
-    imgURL: '/init_fiu_logo.jpg',
-    title: 'SGA Ambassador',
-    startDate: 'December 2022',
-    endDate: 'August 2023',
-    subSections : [
-        { subTitle: 'SGA Representative',
-          description: [
-            "Elected as one of FIU’s engineering senator, advocating for INIT",
-            "Increased membership by 100 students and funding by 5000$ USD."
-          ]
-        }, { subTitle: 'Shellhacks Leader',
-          description: [
-            "Hosted Florida’s largest hackathon, lasting 3 days, with 1200 attendees, and 18 sponsors.",
-            "Led 2 workshops, held a teambuilding activity, and a game tournament."
-          ]
-        }
-    ]
-  }
+  // const experience4 = {
+  //   company: 'INIT',
+  //   imgURL: '/init_fiu_logo.jpg',
+  //   title: 'SGA Ambassador',
+  //   startDate: 'December 2022',
+  //   endDate: 'August 2023',
+  //   subSections : [
+  //       { subTitle: 'SGA Representative',
+  //         description: [
+  //           "Elected as one of FIU’s engineering senator, advocating for INIT",
+  //           "Increased membership by 100 students and funding by 5000$ USD."
+  //         ]
+  //       }, { subTitle: 'Shellhacks Leader',
+  //         description: [
+  //           "Hosted Florida’s largest hackathon, lasting 3 days, with 1200 attendees, and 18 sponsors.",
+  //           "Led 2 workshops, held a teambuilding activity, and a game tournament."
+  //         ]
+  //       }
+  //   ]
+  // }
 
 const experience5 = {
     company: 'Florida International University',
     imgURL: '/FIULogo.png',
     title: 'Teaching Assistant',
-    startDate: 'August 2024',
-    endDate: 'Present',
+    startDate: 'April 2024',
+    endDate: 'December 2024',
     subSections : [
         { subTitle: '',
           description: [
@@ -134,49 +134,55 @@ const experience5 = {
     ]
 }
 
-export const experiences = [experience2, experience5, experience1, experience3, experience4];
+export const experiences = [experience2, experience5, experience3, experience1];
 
 // Research papers
-export const paper1 = {
-  title: "Emulating In-Storage Indexing for High Performance Key-Value Storage Devices",
+export const kv_pap = {
+  //title: "Emulating In-Storage Indexing for High Performance Key-Value Storage Devices",
+  title: "KV Indexing Paper",
   description: [],
-  conference: null,
-  link: null,
-  isPublished: false,
-  underReview: false,
-  workingOn: true
-}
-
-export const paper2 = {
-  title: "Course-Job Fit: Leveraging Language Models to Understand the Relevance of Computer Science Courses to Employment Opportunities",
-  description: [],
-  conference: 'SigCSE 2025',
+  //conference: 'IEEE TCC',
+  conference: 'Anonymous Conference (until accepted)',
   link: null,
   isPublished: false,
   underReview: true,
   workingOn: false
 }
 
-export const paper3 = {
-  title: "LLM CS Advising Agent",
+export const course_job_pap = {
+  title: "Course-Job Fit: Understanding the Contextual Relationship Between Computing Courses and Employment Opportunities",
   description: [],
-  conference: null,
-  link: null,
-  isPublished: false,
+  authors: ['Christopher Kverne, Federico Monteverdi, Agoritsa Polyzou, Christine Lisetti, Janki Bhimani'],
+  conference: 'ASEE 2025 Conference',
+  img: '',
+  link: '',
+  isPublished: true,
   underReview: false,
-  workingOn: true
+  workingOn: false
 }
 
-// Projects:
-export const project4 = {
-  title: 'LSM Key Value Store',
-  link: 'https://github.com/chriskverne/NoSQL-Database',
-  description: [
-    'Developed an in-memory key-value store (MemTable) with dynamica flushing to disk upon reaching capacity.',
-    'Implemented a LSM Tree to manage multi-level disk storage using tombstones for deletion management.',
-    'Designed a Skip List data structure to enhance in-memory operations with O(log⁡n) searches and O(1) updates.'
-  ]
+export const qnn_cp_pap = {
+  title: "Quantum Neural Network Paper",
+  description: [],
+  conference: 'Anonymous Conference (until accepted)',
+  link: null,
+  isPublished: false,
+  underReview: true,
+  workingOn: false
 }
+
+export const papers = [qnn_cp_pap, course_job_pap, kv_pap]
+
+// Projects:
+// export const project4 = {
+//   title: 'LSM Key Value Store',
+//   link: 'https://github.com/chriskverne/NoSQL-Database',
+//   description: [
+//     'Developed an in-memory key-value store (MemTable) with dynamica flushing to disk upon reaching capacity.',
+//     'Implemented a LSM Tree to manage multi-level disk storage using tombstones for deletion management.',
+//     'Designed a Skip List data structure to enhance in-memory operations with O(log⁡n) searches and O(1) updates.'
+//   ]
+// }
 
 export const project2 = {
   title: 'Neural Network (From Scratch)',
@@ -185,15 +191,6 @@ export const project2 = {
     'Implemented a neural network from scratch in python only using NumPy matrices.',
     'Designed custom ReLU and Softmax activation functions along with categorical crossentropy loss for forward and backwards propagation.',
     'Designed RMSProp, SGD, Adagrad and ADAM optimizers with learning rate decay.'
-  ]
-}
-
-export const project3 = {
-  title: 'Fake News Detector',
-  link: 'https://github.com/chriskverne/FakeNewsDetector',
-  description: [
-    'Worked with a team of 4 students at the Knighthacks hackathon by developing a model that detects fake news.',
-    'Created a stemming algorithm, vectorized text with TF-IDF and trained a linear regression model from tensorflow with a final accuracy of 98.2%.',
   ]
 }
 
@@ -206,3 +203,5 @@ export const project1 = {
     'Utilized teacher forcing and greedy decoding methods to improve training dynamics and summary generation.'
   ]
 }
+
+export const projects = [project1, project2]
