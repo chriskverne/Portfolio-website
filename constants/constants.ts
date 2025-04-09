@@ -1,26 +1,26 @@
 export const courseWork = [
-    { 'Calculus 1': 'A' }, 
-    { 'Calculus 2': 'A' }, 
-    { 'Physics 1': 'A-' }, 
-    { 'Physics 1 Lab': 'A-' }, 
-    { 'Programming 1': 'A' }, 
-    { 'Programming 2': 'A-' }, 
+    { 'Calculus 1 & 2': 'A' }, 
+    //{ 'Physics 1': 'A-' }, 
+    //{ 'Physics 1 Lab': 'A-' }, 
+    //{ 'Programming 1': 'A' }, 
+    //{ 'Programming 2': 'A-' }, 
     { 'Discrete Mathematics': 'A' }, 
     { 'Probability & Statistics': 'A' }, 
     { 'Computer Architecture': 'A-' }, 
     { 'Data Structures': 'A' }, 
-    { 'Systems Programming': 'A' }, 
+    //{ 'Systems Programming': 'A' }, 
     { 'Physics 2': 'B+' }, 
-    { 'Physics 2 Lab': 'A' }, 
-    { 'Technology in Global Arena': 'A' }, 
-    { 'Machine Learning': 'A' }, 
+    //{ 'Physics 2 Lab': 'A' }, 
+    //{ 'Technology in Global Arena': 'A' }, 
+    //{ 'Machine Learning': 'A' }, 
     //{ 'Software Engineering': '' }, 
-    { 'Capstone 1': 'A' }, 
+    //{ 'Capstone 1': 'A' }, 
     { 'Operating Systems': 'A' }, 
     {'Linear Algebra': ''},
     {'Multivarible Calculus' : ''},
     {'Graph Theory': ''},
-    {'Quantum Computing' : ''}
+    {'Quantum Computing' : ''},
+    {'Differential Equations':''}
 ];
 
 export const mathCourses = [
@@ -62,7 +62,7 @@ const experience1 = {
   const experience2 = {
     company: 'Data Management Research Laboratory',
     imgURL: '/daMRLLogo.png',
-    title: 'Research Intern',
+    title: 'Undergraduate Research Assistant',
     startDate: 'November 2023',
     endDate: 'Present',
     subSections : [
@@ -137,22 +137,24 @@ const experience5 = {
 export const experiences = [experience2, experience5, experience3, experience1];
 
 // Research papers
-export const kv_pap = {
+const kv_pap = {
   //title: "Emulating In-Storage Indexing for High Performance Key-Value Storage Devices",
   title: "KV Indexing Paper",
   description: [],
+  authors: ['Manoj P. Saha', 'Christopher Kverne', 'Danlin Jia', 'Janki Bhimani', 'Ningfang Mi'],
+
   //conference: 'IEEE TCC',
-  conference: 'Anonymous Conference (until accepted)',
+  conference: 'Anonymous Journal (name and paper disclosed until accepted)',
   link: null,
   isPublished: false,
   underReview: true,
   workingOn: false
 }
 
-export const course_job_pap = {
+const course_job_pap = {
   title: "Course-Job Fit: Understanding the Contextual Relationship Between Computing Courses and Employment Opportunities",
   description: [],
-  authors: ['Christopher Kverne, Federico Monteverdi, Agoritsa Polyzou, Christine Lisetti, Janki Bhimani'],
+  authors: ['Christopher Kverne', 'Federico Monteverdi', 'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
   conference: 'ASEE 2025 Conference',
   img: '',
   link: '',
@@ -161,17 +163,41 @@ export const course_job_pap = {
   workingOn: false
 }
 
-export const qnn_cp_pap = {
+const qnn_cp_pap = {
   title: "Quantum Neural Network Paper",
   description: [],
-  conference: 'Anonymous Conference (until accepted)',
+  authors: ['Christopher Kverne', 'Mayur Akewar', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
+  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
   link: null,
   isPublished: false,
   underReview: true,
   workingOn: false
 }
 
-export const papers = [qnn_cp_pap, course_job_pap, kv_pap]
+const llm_advisor_paper = {
+  title: "LLM Avisor Paper",
+  description: [],
+  authors: ['Lorena Quincoso Lugones','Christopher Kverne', 'Federico Monteverdi', 'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
+  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
+  img: '',
+  link: '',
+  isPublished: false,
+  underReview: false,
+  workingOn: true
+}
+
+const qnn_noise_pap = {
+  title: "Quantum Neural Noise Paper",
+  description: [],
+  authors: ['Mayur Akewar', 'Christopher Kverne', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
+  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
+  link: null,
+  isPublished: false,
+  underReview: false,
+  workingOn: true
+}
+
+export const papers = [course_job_pap, qnn_cp_pap, qnn_noise_pap, kv_pap, llm_advisor_paper]
 
 // Projects:
 // export const project4 = {

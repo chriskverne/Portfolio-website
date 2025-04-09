@@ -2,11 +2,11 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 
 const TypeWriter = () => {
-  const messages = ['Christopher Lukas Kverne', 'a CS and Math Student' ,'a ML & Systems Researcher', 'a Software Engineer', 'a Dog and Hiking Lover :D'];
+  const messages = ['Christopher Lukas Kverne', 'a CS and Math Student' ,'a ML & Systems Researcher', 'a Math Enthusiast', 'a Dog and Hiking Lover :D'];
   const options = {
     strings: messages,
     delay: 50, // The delay between each key when typing.
-    deleteSpeed: 20, // Speed to delete each character
+    deleteSpeed: 30, // Speed to delete each character
     loop: true,
     autoStart: true,
     pauseFor: 1500, // Duration to pause after a message is written

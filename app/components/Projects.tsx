@@ -5,7 +5,7 @@ import { projects } from '@/constants/constants'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col items-center mb-10'>
+    <div className='flex flex-col items-center mb-6'>
       <div className='w-4/5'>
         <Title title={"Projects"} />
       </div>

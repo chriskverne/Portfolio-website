@@ -2,18 +2,23 @@ import React from 'react'
 import Title from './Title'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbMailFilled } from "react-icons/tb";
+import { SiKaggle } from "react-icons/si";
 import Link from 'next/link'
 
 const ContactMe = () => {
   return (
-    <div className='flex justify-center mt-4 mb-4'>
-      <div className='flex space-x-10'>
+    <div className='flex justify-center mb-6'>
+      <div className='flex space-x-10 items-center'>
         <Link href={'https://www.linkedin.com/in/christopher-lukas-kverne-95baa1249/'} target="_blank">
           <FaLinkedin style={iconStyle} />
         </Link>
 
         <Link href={'https://github.com/chriskverne'} target="_blank">
           <FaGithub style={iconStyle} />
+        </Link>
+
+        <Link href={'https://www.kaggle.com/christopherkverne'} target="_blank">
+          <SiKaggle style={kag_style} />
         </Link>
 
         <Link href={'mailto:chris.kverne@gmail.com'} target="_blank">
@@ -32,7 +37,6 @@ const ContactMe = () => {
         }
         .flex :global(svg:hover) {
           transform: scale(1.2);
-          color: #0077b5;
         }
       `}
       </style>
@@ -41,7 +45,12 @@ const ContactMe = () => {
 }
 
 const iconStyle = {
-  fontSize: '3rem',
+  fontSize: '4rem',
+  transition: 'transform 0.3s ease, color 0.3s ease',
+};
+
+const kag_style = {
+  fontSize: '6rem',
   transition: 'transform 0.3s ease, color 0.3s ease',
 };
 
