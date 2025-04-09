@@ -45,12 +45,12 @@ const ContactMe = () => {
 }
 
 const iconStyle = {
-  fontSize: '4rem',
+  fontSize: '3rem',
   transition: 'transform 0.3s ease, color 0.3s ease',
 };
 
 const kag_style = {
-  fontSize: '6rem',
+  fontSize: '4rem',
   transition: 'transform 0.3s ease, color 0.3s ease',
 };
 

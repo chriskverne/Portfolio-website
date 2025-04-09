@@ -4,12 +4,12 @@ import React from 'react'
 const Paper = ({paper}) => {
   return (
     <div className='mb-6 bg-[rgb(229,229,229)] p-3 rounded-md'>
-      <p className='text-xl font-semibold'>{paper.title}</p>
+      <p className='text-lg font-semibold'>{paper.title}</p>
       {paper.isPublished && (
         <>
           <Link href={paper.link}>
             <div className='flex items-center gap-2'>
-              <p className='text-xl'>Published at:</p>
+              <p className='text-lg'>Published at:</p>
               <p className='text-green-500 font-bold text-xl'>{paper.conference}</p>
             </div>
           </Link>
@@ -24,7 +24,7 @@ const Paper = ({paper}) => {
         <p className='text-lg text-[#ff9500]'>Currently working on it, Please read it when it comes out</p>
       )}
 
-      <p className='text-lg'>
+      <p className='text-md'>
         {paper.authors.map((author, index) => (
             <React.Fragment key={index}>
               {author === "Christopher Kverne" ? (
