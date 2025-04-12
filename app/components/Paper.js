@@ -17,11 +17,11 @@ const Paper = ({paper}) => {
       )}
 
       {paper.underReview && (
-        <p className='text-lg text-[#000000]'>Under review at {paper.conference}</p>
+        <p className='text-md text-[#000000]'>Under review at {paper.conference}</p>
       )}
 
       {paper.workingOn && (
-        <p className='text-lg text-[#000000]'>Currently working on it</p>
+        <p className='text-md text-[#000000]'>Currently working on it</p>
       )}
 
       <p className='text-md'>
