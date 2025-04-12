@@ -1,8 +1,7 @@
 import React from 'react'
-import Title from './Title'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { TbMailFilled } from "react-icons/tb";
-import { SiKaggle } from "react-icons/si";
+import { SiKaggle, SiGooglescholar } from "react-icons/si";
 import Link from 'next/link'
 
 const ContactMe = () => {
@@ -25,6 +24,9 @@ const ContactMe = () => {
           <TbMailFilled style={iconStyle} />
         </Link>
 
+        <Link href={'https://scholar.google.com/YOUR_SCHOLAR_ID'} target="_blank">
+          <SiGooglescholar style={iconStyle} />
+        </Link>
       </div>
 
       <style jsx>{`

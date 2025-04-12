@@ -39,7 +39,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className='relative w-full mb-5'>
+    <div className='relative w-full'>
       <img src={bgImage} alt='Background' />
       <TypeWriter />
     </div>

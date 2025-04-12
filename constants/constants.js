@@ -38,7 +38,7 @@ export const mathCourses = [
 ];
 
 
-export const awards = ['Global Scholarship ($6300)', 'Dean’s list 4x', 'NSF Stipend ($4250)'];
+export const awards = ['Global Scholarship ($6300)', 'Dean’s list 4x', '2X NSF Stipend ($4250)', 'CRA Undergraduate Researcher Nomination'];
 
 // Work Experience
 const experience1 = {
@@ -123,7 +123,7 @@ const experience5 = {
     company: 'Florida International University',
     imgURL: '/FIULogo.png',
     title: 'Teaching Assistant',
-    startDate: 'April 2024',
+    startDate: 'January 2023',
     endDate: 'December 2024',
     subSections : [
         { subTitle: '',
@@ -134,7 +134,7 @@ const experience5 = {
     ]
 }
 
-export const experiences = [experience2, experience5, experience3, experience1];
+export const experiences = [experience2, experience1, experience5];
 
 // Research papers
 const kv_pap = {
@@ -174,10 +174,21 @@ const qnn_cp_pap = {
   workingOn: false
 }
 
+const quantum_transpilation = {
+  title: "Quantum Transpilation Paper",
+  description: [],
+  authors: ['Yuqian Huo', 'Nicholas De Brita','Christopher Kverne', 'Mayur Akewar', 'Janki Bhimani','Tirthak Patel'],
+  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
+  link: null,
+  isPublished: false,
+  underReview: true,
+  workingOn: false
+}
+
 const llm_advisor_paper = {
   title: "LLM Avisor Paper",
   description: [],
-  authors: ['Lorena Quincoso Lugones','Christopher Kverne', 'Federico Monteverdi', 'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
+  authors: ['Lorena Quincoso Lugones','Christopher Kverne', 'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
   conference: 'Anonymous Conference (name and paper disclosed until accepted)',
   img: '',
   link: '',
@@ -197,9 +208,9 @@ const qnn_noise_pap = {
   workingOn: true
 }
 
-export const papers = [course_job_pap, qnn_cp_pap, qnn_noise_pap, kv_pap, llm_advisor_paper]
+export const papers = [course_job_pap, qnn_cp_pap, quantum_transpilation, kv_pap, qnn_noise_pap, llm_advisor_paper]
 
-// Projects:
+// Projects:,
 // export const project4 = {
 //   title: 'LSM Key Value Store',
 //   link: 'https://github.com/chriskverne/NoSQL-Database',

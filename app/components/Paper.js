@@ -3,15 +3,15 @@ import React from 'react'
 
 const Paper = ({paper}) => {
   return (
-    <div className='mb-6 bg-[rgb(229,229,229)] p-3 rounded-md'>
-      <p className='text-lg font-semibold'>{paper.title}</p>
+    <div className='rounded-md'>
+      <p className='text-md font-semibold'>- {paper.title}</p>
       {paper.isPublished && (
         <>
           <Link href={paper.link}>
             <div className='flex items-center gap-2'>
-              <p className='text-lg'>Published at:</p>
-              <p className='text-green-500 font-bold text-xl'>{paper.conference}</p>
-            </div>
+              <p className='text-md'>Published at:</p>
+              <p className=' font-bold text-md'>{paper.conference}</p>
+              <Link className="text-blue-700 font-semibold underline" href={paper.link}>[Click to Read]</Link>            </div>
           </Link>
         </>
       )}
@@ -21,7 +21,7 @@ const Paper = ({paper}) => {
       )}
 
       {paper.workingOn && (
-        <p className='text-lg text-[#ff9500]'>Currently working on it, Please read it when it comes out</p>
+        <p className='text-lg text-[#000000]'>Currently working on it</p>
       )}
 
       <p className='text-md'>

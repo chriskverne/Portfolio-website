@@ -8,13 +8,13 @@ const Research = () => {
   return (
     <div className='flex flex-col items-center'>
       <div className='w-4/5'>
-        <Title title={"Research"} />
+        <Title title={"Research Interests"} />
       </div>
       <div className='w-4/5 text-lg'>
         <p>
           I&apos;m currently a junior at FIU fortunate enough to be working under Professor <Link className='text-blue-600 underline' target='blank' href={'https://www.cis.fiu.edu/faculty-staff/janki-bhimani/'}>Janki Bhimani</Link> in 
           the <Link className='text-blue-600 underline' href={'https://damrl.cis.fiu.edu/'} target='_blank'>DaMRL</Link> lab.
-          My research interests include <b>Optimization</b>, <b>Deep Learning</b>, <b>Generative AI</b>, and <b>Quantum Machine Learning</b>.
+          My research interests include <b>Optimization 📈</b>, <b>Deep Learning ♾️</b>, <b>Generative AI 🤖</b>, and <b>Quantum Machine Learning ⚛️</b>.
         </p>
         <p className='mt-2 underline'><i><b>What is intelligence?</b></i></p>
         <p className='mt-2'>
@@ -26,12 +26,10 @@ const Research = () => {
           Ultimately, my goal is to deepen our understanding of machine learning foundations to replicate and enhance the concept of 
           &quot;intelligence.&quot;
         </p>  
-      </div>
-      <div className='w-4/5'>
-        <Title title={"Papers"} />
-        {papers.map((paper, index) => (
-          <Paper key={index} paper={paper} />
-        ))}
+        <p className='mt-2 underline'>
+          If you find any of my work interesting or would like to collaborate feel free to reach out!
+          Links for contacting me is on the bottom of the page😊
+        </p>
       </div>
     </div>
   )
