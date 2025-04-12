@@ -17,7 +17,7 @@ const Paper = ({paper}) => {
       )}
 
       {paper.underReview && (
-        <p className='text-lg text-[#ff9500]'>Under review at {paper.conference}</p>
+        <p className='text-lg text-[#000000]'>Under review at {paper.conference}</p>
       )}
 
       {paper.workingOn && (
