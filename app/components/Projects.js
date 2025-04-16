@@ -10,7 +10,7 @@ const Projects = () => {
         <Title title={"Projects"} />
       </div>
 
-      <div className='w-4/5 flex flex-col'>
+      <div className='w-4/5 flex flex-col space-y-2'>
         {projects.map((project, index) => (
           <Project key={index} project={project} />
         ))}

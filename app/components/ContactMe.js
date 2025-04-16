@@ -7,7 +7,7 @@ import Link from 'next/link'
 const ContactMe = () => {
   return (
     <div className='flex justify-center mb-6'>
-      <div className='flex space-x-10 items-center'>
+      <div className='flex space-x-6 md:space-x-10 items-center'>
         <Link href={'https://www.linkedin.com/in/christopher-lukas-kverne-95baa1249/'} target="_blank">
           <FaLinkedin style={iconStyle} />
         </Link>
@@ -47,7 +47,7 @@ const ContactMe = () => {
 }
 
 const iconStyle = {
-  fontSize: '3rem',
+  fontSize: '2.5rem',
   transition: 'transform 0.3s ease, color 0.3s ease',
 };
 

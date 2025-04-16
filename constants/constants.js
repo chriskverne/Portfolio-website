@@ -60,7 +60,7 @@ const experience1 = {
   }
 
   const experience2 = {
-    company: 'Data Management Research Laboratory',
+    company: 'DAMRL Laboratory',
     imgURL: '/daMRLLogo.png',
     title: 'Undergraduate Research Assistant',
     startDate: 'November 2023',
@@ -157,7 +157,7 @@ const course_job_pap = {
   authors: ['Christopher Kverne', 'Federico Monteverdi', 'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
   conference: 'ASEE 2025 Conference',
   img: '',
-  link: '',
+  link: 'https://www.asee.org/events/Conferences-and-Meetings/2025-Annual-Conference/Paper-Management/Call-for-Papers',
   isPublished: true,
   underReview: false,
   workingOn: false

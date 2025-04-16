@@ -16,7 +16,7 @@ const Research = () => {
       <div className='w-4/5 flex flex-col'>
         <div className='flex items-center'>
           <img src={'/FIULogo.png'} alt={`fiu logo`} className="h-14 mr-4" />
-          <div className='text-lg'>
+          <div className='text-sm md:text-xl'>
             <div className='flex'>
               <h3 className='font-semibold'>Bachelor of Science:&nbsp;</h3>
               <p className='italic'>Computer Science</p>
@@ -27,20 +27,10 @@ const Research = () => {
             </div>
           </div>
         </div>
-        {/*
-        <div className='flex flex-col md:flex-row mb-1'>
-          <h3 className='font-semibold text-lg'>Honors and awards:</h3>
-          <div className='flex flex-col md:flex-row ml-1'>
-            {awards.map((award, index) => (
-              <p className='text-lg mr-3' key={index}>{award}</p>
-            ))}
-          </div>
-        </div>
-        */}
 
-        <div className='flex align-middle'>
-          <h3 className='font-semibold text-lg'>GPA:</h3>
-          <p className='text-lg ml-1'>3.86</p>
+        <div className='flex align-middle mt-2'>
+          <h3 className='font-semibold text-xl'>GPA:</h3>
+          <p className='text-xl ml-1'>3.86</p>
           <button className='ml-3 bg-[#14213d] text-white py-1 font-semibold text-sm rounded-md w-[7rem]' onClick={toggleCourseWork}>
             {showCourseWork ? 'Hide Courses' : 'Show Courses'}
           </button>

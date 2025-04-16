@@ -3,28 +3,28 @@ import React from 'react'
 
 const Paper = ({paper}) => {
   return (
-    <div className='rounded-md'>
-      <p className='text-md font-semibold'>- {paper.title}</p>
+    <div className='rounded-md text-xs md:text-base'>
+      <p className='font-semibold'>- {paper.title}</p>
       {paper.isPublished && (
         <>
-          <Link href={paper.link}>
+          <Link href={paper.link} target='_blank'>
             <div className='flex items-center gap-2'>
-              <p className='text-md'>Published at:</p>
-              <p className=' font-bold text-md'>{paper.conference}</p>
-              <Link className="text-blue-700 font-semibold underline" href={paper.link}>[Click to Read]</Link>            </div>
+              <p className='italic'>{paper.conference}</p>
+              <p className="text-blue-600 underline">[Click to Read]</p>            
+            </div>
           </Link>
         </>
       )}
 
       {paper.underReview && (
-        <p className='text-md text-[#000000]'>Under review at {paper.conference}</p>
+        <p className='text-[#000000]'>Under review at {paper.conference}</p>
       )}
 
       {paper.workingOn && (
-        <p className='text-md text-[#000000]'>Currently working on it</p>
+        <p className=' text-[#000000]'>Currently working on it</p>
       )}
 
-      <p className='text-md'>
+      <p className=''>
         {paper.authors.map((author, index) => (
             <React.Fragment key={index}>
               {author === "Christopher Kverne" ? (

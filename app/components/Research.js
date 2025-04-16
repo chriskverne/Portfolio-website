@@ -10,7 +10,7 @@ const Research = () => {
       <div className='w-4/5'>
         <Title title={"Research Interests"} />
       </div>
-      <div className='w-4/5 text-lg'>
+      <div className='w-4/5 text-sm md:text-lg'>
         <p>
           I&apos;m currently a junior at FIU fortunate enough to be working under Professor <Link className='text-blue-600 underline' target='blank' href={'https://www.cis.fiu.edu/faculty-staff/janki-bhimani/'}>Janki Bhimani</Link> in 
           the <Link className='text-blue-600 underline' href={'https://damrl.cis.fiu.edu/'} target='_blank'>DaMRL</Link> lab.
@@ -27,8 +27,7 @@ const Research = () => {
           &quot;intelligence.&quot;
         </p>  
         <p className='mt-2 underline'>
-          If you find any of my work interesting or would like to collaborate feel free to reach out!
-          Links for contacting me is on the bottom of the page😊
+          If you find any of my work interesting or would like to collaborate feel free to reach out 😊!
         </p>
       </div>
     </div>
