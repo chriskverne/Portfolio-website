@@ -30,7 +30,7 @@ const Research = () => {
 
         <div className='flex align-middle mt-2'>
           <h3 className='font-semibold text-xl'>GPA:</h3>
-          <p className='text-xl ml-1'>3.86</p>
+          <p className='text-xl ml-1'>3.80 / 4.0</p>
           <button className='ml-3 bg-[#14213d] text-white py-1 font-semibold text-sm rounded-md w-[7rem]' onClick={toggleCourseWork}>
             {showCourseWork ? 'Hide Courses' : 'Show Courses'}
           </button>

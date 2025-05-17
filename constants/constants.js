@@ -6,21 +6,24 @@ export const courseWork = [
     //{ 'Programming 2': 'A-' }, 
     { 'Discrete Mathematics': 'A' }, 
     { 'Probability & Statistics': 'A' }, 
-    { 'Computer Architecture': 'A-' }, 
-    { 'Data Structures': 'A' }, 
+    // { 'Computer Architecture': 'A-' }, 
+    // { 'Data Structures': 'A' }, 
     //{ 'Systems Programming': 'A' }, 
-    { 'Physics 2': 'B+' }, 
+    // { 'Physics 2': 'B+' }, 
     //{ 'Physics 2 Lab': 'A' }, 
     //{ 'Technology in Global Arena': 'A' }, 
     //{ 'Machine Learning': 'A' }, 
     //{ 'Software Engineering': '' }, 
     //{ 'Capstone 1': 'A' }, 
-    { 'Operating Systems': 'A' }, 
+    // { 'Operating Systems': 'A' }, 
     {'Linear Algebra': ''},
     {'Multivarible Calculus' : ''},
     {'Graph Theory': ''},
-    {'Quantum Computing' : ''},
-    {'Differential Equations':''}
+    // {'Quantum Computing' : ''},
+    {'Differential Equations':''},
+    {'Numerical Analysis':''},
+    {'Combinatorics':''},
+    {'Computational Geometry':''}
 ];
 
 export const mathCourses = [
@@ -164,13 +167,13 @@ const course_job_pap = {
 }
 
 const qnn_cp_pap = {
-  title: "Quantum Neural Network Paper",
+  title: "Quantum Neural Networks Need Checkpointing",
   description: [],
   authors: ['Christopher Kverne', 'Mayur Akewar', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
-  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
-  link: null,
-  isPublished: false,
-  underReview: true,
+  conference: 'ACM HotStorage 2025',
+  link: 'https://www.hotstorage.org/2025/',
+  isPublished: true,
+  underReview: false,
   workingOn: false
 }
 
@@ -204,11 +207,22 @@ const qnn_noise_pap = {
   conference: 'Anonymous Conference (name and paper disclosed until accepted)',
   link: null,
   isPublished: false,
+  underReview: true,
+  workingOn: false
+}
+
+const qnn_freezing_pap = {
+  title: "Quantum Parameter Freezing Paper",
+  description: [],
+  authors: ['Christopher Kverne', 'Mayur Akewar', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
+  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
+  link: null,
+  isPublished: false,
   underReview: false,
   workingOn: true
 }
 
-export const papers = [course_job_pap, qnn_cp_pap, quantum_transpilation, kv_pap, qnn_noise_pap, llm_advisor_paper]
+export const papers = [qnn_cp_pap, course_job_pap, quantum_transpilation, kv_pap, qnn_noise_pap, qnn_freezing_pap ,llm_advisor_paper]
 
 // Projects:,
 // export const project4 = {

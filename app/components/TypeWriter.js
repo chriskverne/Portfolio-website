@@ -2,7 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 
 const TypeWriter = () => {
-  const messages = ['Christopher Lukas Kverne', 'a CS and Math Student' ,'a ML & Systems Researcher', 'a Math Enthusiast', 'a Dog and Hiking Lover :D'];
+  const messages = ['Christopher Lukas Kverne', 'a CS and Math Student' ,'a ML & Systems Researcher', 'a Dog and Hiking Lover :D'];
   const options = {
     strings: messages,
     delay: 50, // The delay between each key when typing.
