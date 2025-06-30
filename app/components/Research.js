@@ -14,7 +14,7 @@ const Research = () => {
         <p>
           I&apos;m currently a junior at FIU fortunate to be supervised by Professor <Link className='text-blue-600 underline' target='blank' href={'https://www.cis.fiu.edu/faculty-staff/janki-bhimani/'}>Janki Bhimani</Link> in 
           the <Link className='text-blue-600 underline' href={'https://damrl.cis.fiu.edu/'} target='_blank'>DaMRL</Link> lab.
-          My research interests include <b>Optimization 📈</b>, <b>Deep Learning ♾️</b>, <b>Generative AI 🤖</b>, and <b>Quantum Machine Learning ⚛️</b>.
+          My research interests include <b>Optimization Theory📈</b>, <b>Deep Learning ♾️</b>, <b>Generative AI 🤖</b>, and <b>Quantum Machine Learning ⚛️</b>.
         </p>
         <p className='mt-2 underline'><i><b>What is intelligence?</b></i></p>
         <p className='mt-2'>
@@ -27,7 +27,7 @@ const Research = () => {
           &quot;intelligence.&quot;
         </p>  
         <p className='mt-2 underline'>
-          If you find any of my work interesting or would like to collaborate feel free to reach out 😊!
+          If you find any of my work interesting or would like to collaborate feel free to reach out 😊!!
         </p>
       </div>
     </div>

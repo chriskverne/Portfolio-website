@@ -24,7 +24,7 @@ const ContactMe = () => {
           <TbMailFilled style={iconStyle} />
         </Link>
 
-        <Link href={'https://scholar.google.com/YOUR_SCHOLAR_ID'} target="_blank">
+        <Link href={'https://scholar.google.com/citations?user=_yVb-LMAAAAJ&hl=en'} target="_blank">
           <SiGooglescholar style={iconStyle} />
         </Link>
       </div>
