@@ -158,9 +158,9 @@ const course_job_pap = {
   title: "Course-Job Fit: Understanding the Contextual Relationship Between Computing Courses and Employment Opportunities",
   description: [],
   authors: ['Christopher Kverne', 'Federico Monteverdi', 'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
-  conference: 'ASEE 2025 Conference',
+  conference: 'ASEE 2025 Conference (30%)',
   img: '',
-  link: 'https://www.asee.org/events/Conferences-and-Meetings/2025-Annual-Conference/Paper-Management/Call-for-Papers',
+  link: 'https://nemo.asee.org/public/conferences/365/papers/48456/view',
   isPublished: true,
   underReview: false,
   workingOn: false
@@ -170,21 +170,21 @@ const qnn_cp_pap = {
   title: "Quantum Neural Networks Need Checkpointing",
   description: [],
   authors: ['Christopher Kverne', 'Mayur Akewar', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
-  conference: 'ACM HotStorage 2025',
-  link: 'https://www.hotstorage.org/2025/',
+  conference: 'ACM HotStorage 2025 (33%)',
+  link: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_yVb-LMAAAAJ&citation_for_view=_yVb-LMAAAAJ:u5HHmVD_uO8C',
   isPublished: true,
   underReview: false,
   workingOn: false
 }
 
 const quantum_transpilation = {
-  title: "Quantum Transpilation Paper",
+  title: "Revisiting Noise-adaptive Transpilation in Quantum Computing: How Much Impact Does it Have?",
   description: [],
-  authors: ['Yuqian Huo', 'Nicholas De Brita','Christopher Kverne', 'Mayur Akewar', 'Janki Bhimani','Tirthak Patel'],
-  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
-  link: null,
-  isPublished: false,
-  underReview: true,
+  authors: ['Yuqian Huo', 'Jinbiao Wei','Christopher Kverne', 'Mayur Akewar', 'Janki Bhimani','Tirthak Patel'],
+  conference: 'ICCAD 2025 (24%)',
+  link: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_yVb-LMAAAAJ&citation_for_view=_yVb-LMAAAAJ:9yKSN-GCB0IC',
+  isPublished: true,
+  underReview: false,
   workingOn: false
 }
 
@@ -204,7 +204,7 @@ const qnn_noise_pap = {
   title: "Quantum Neural Noise Paper",
   description: [],
   authors: ['Mayur Akewar', 'Christopher Kverne', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
-  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
+  conference: 'NeurIPS 2025',
   link: null,
   isPublished: false,
   underReview: true,
@@ -215,14 +215,14 @@ const qnn_freezing_pap = {
   title: "Quantum Parameter Freezing Paper",
   description: [],
   authors: ['Christopher Kverne', 'Mayur Akewar', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
-  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
+  conference: 'AAAI 2026',
   link: null,
   isPublished: false,
-  underReview: false,
-  workingOn: true
+  underReview: true,
+  workingOn: false
 }
 
-export const papers = [qnn_cp_pap, course_job_pap, quantum_transpilation, kv_pap, qnn_noise_pap, qnn_freezing_pap ,llm_advisor_paper]
+export const papers = [qnn_freezing_pap, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, kv_pap,llm_advisor_paper]
 
 // Projects:,
 // export const project4 = {
