@@ -147,7 +147,7 @@ const kv_pap = {
   authors: ['Manoj P. Saha', 'Christopher Kverne', 'Danlin Jia', 'Janki Bhimani', 'Ningfang Mi'],
 
   //conference: 'IEEE TCC',
-  conference: 'Anonymous Journal (name and paper disclosed until accepted)',
+  conference: 'IEEE TC',
   link: null,
   isPublished: false,
   underReview: true,
@@ -201,10 +201,10 @@ const llm_advisor_paper = {
 }
 
 const qnn_noise_pap = {
-  title: "Quantum Neural Noise Paper",
+  title: "Convergence Guarantees in Noisy Training Enviornments",
   description: [],
   authors: ['Mayur Akewar', 'Christopher Kverne', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
-  conference: 'NeurIPS 2025',
+  conference: 'Sigmetrics 2026',
   link: null,
   isPublished: false,
   underReview: true,
@@ -212,9 +212,31 @@ const qnn_noise_pap = {
 }
 
 const qnn_freezing_pap = {
-  title: "Quantum Parameter Freezing Paper",
+  title: "Stochastic-Block Wise Optimization Algorithm",
   description: [],
   authors: ['Christopher Kverne', 'Mayur Akewar', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
+  conference: 'AISTATS 2026',
+  link: null,
+  isPublished: false,
+  underReview: true,
+  workingOn: false
+}
+
+const qnn_L_smoothness = {
+  title: "Smoothness Guarantees and Landscape Behaviour in VQAs",
+  description: [],
+  authors: ['Christopher Kverne', 'Mayur Akewar', 'Nicholas S. DiBrita', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
+  conference: 'ICLR 2026',
+  link: null,
+  isPublished: false,
+  underReview: true,
+  workingOn: false
+}
+
+const second_order_first_order = {
+  title: "Diagonal Newton's Method approach at First-order Cost",
+  description: [],
+  authors: ['Christopher Kverne'],
   conference: 'AAAI 2026',
   link: null,
   isPublished: false,
@@ -222,7 +244,7 @@ const qnn_freezing_pap = {
   workingOn: false
 }
 
-export const papers = [qnn_freezing_pap, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, kv_pap,llm_advisor_paper]
+export const papers = [second_order_first_order,qnn_L_smoothness,qnn_freezing_pap, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, kv_pap,llm_advisor_paper]
 
 // Projects:,
 // export const project4 = {
