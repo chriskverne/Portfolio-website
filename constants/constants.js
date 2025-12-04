@@ -23,7 +23,8 @@ export const courseWork = [
     {'Differential Equations':''},
     {'Numerical Analysis':''},
     {'Combinatorics':''},
-    {'Computational Geometry':''}
+    {'Computational Geometry':''},
+    {'Theory of Algorithms':''},
 ];
 
 export const mathCourses = [
@@ -205,15 +206,15 @@ const quantum_transpilation = {
 }
 
 const llm_advisor_paper = {
-  title: "LLM Avisor Paper",
+  title: "Aurora: Neuro-Symbolic AI Driven Advising Agent",
   description: [],
-  authors: ['Lorena Quincoso Lugones','Christopher Kverne', 'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
-  conference: 'Anonymous Conference (name and paper disclosed until accepted)',
+  authors: ['Lorena Amanda Quincoso Lugones','Christopher Kverne', 'Nityam Shardakhrmin', 'Ana Carolina Oliveira' ,'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
+  conference: 'SAC 2026 (23%)',
   img: '',
   link: '',
-  isPublished: false,
+  isPublished: true,
   underReview: false,
-  workingOn: true
+  workingOn: false
 }
 
 const qnn_noise_pap = {
@@ -260,7 +261,7 @@ const second_order_first_order = {
   workingOn: false
 }
 
-export const papers = [qnn_L_smoothness,qnn_freezing_pap, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, kv_pap,llm_advisor_paper]
+export const papers = [qnn_L_smoothness,qnn_freezing_pap, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, llm_advisor_paper, kv_pap]
 
 // Projects:,
 // export const project4 = {

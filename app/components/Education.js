@@ -3,7 +3,7 @@ import Title from './Title';
 import { courseWork, awards } from '@/constants/constants';
 
 const Research = () => {
-  const [showCourseWork, setShowCourseWork] = useState(true);
+  const [showCourseWork, setShowCourseWork] = useState(false);
   const toggleCourseWork = () => {
     setShowCourseWork(!showCourseWork);
   };
