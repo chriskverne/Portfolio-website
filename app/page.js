@@ -20,7 +20,7 @@ export default function Home() {
       <Papers />
       <Experience />
       <Education />
-      <Projects />
+      {/* <Projects /> */}
       <ContactMe />
     </main>
   );

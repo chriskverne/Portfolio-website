@@ -21,7 +21,7 @@ const Research = () => {
           This question drives my current research interests. I am fascinated by the mathematical principles that underlie learning and reasoning — particularly within the framework of statistical learning theory and optimization. My work focuses on understanding the fundamental limits of learning systems: how algorithms generalize, converge, and adapt under various data and computational constraints.
         </p>  
         <p className='mt-2 underline'>
-          If you find any of my work interesting or would like to collaborate feel free to reach out 😊!!
+          If you find any of my work interesting or would like to collaborate feel free to reach out 😊
         </p>
       </div>
     </div>

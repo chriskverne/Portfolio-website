@@ -45,8 +45,8 @@ export const awards = ['Global Scholarship ($6300)', 'Dean’s list 4x', '2X NSF
 
 // Work Experience
 const experience1 = {
-    company: 'NG Group',
-    imgURL: '/logo2.svg',
+    company: 'NG Nordic',
+    imgURL: '/nglogo.png',
     title: 'Software Engineer Intern',
     startDate: 'May 2024',
     endDate: 'August 2024',
@@ -137,7 +137,23 @@ const experience5 = {
     ]
 }
 
-export const experiences = [experience2, experience1, experience5];
+const sintef = {
+    company: 'SINTEF',
+    imgURL: '/sinteflogo.jpg',
+    title: 'Incoming Research Intern',
+    startDate: 'May 2026',
+    endDate: 'August 2026',
+}
+
+const university_washington =  {
+    company: 'University of Washington',
+    imgURL: '/udublogo.png',
+    title: 'Machine Learning Research Intern',
+    startDate: 'August 2025',
+    endDate: 'August 2025',
+}
+
+export const experiences = [sintef, university_washington, experience2, experience1, ];
 
 // Research papers
 const kv_pap = {
@@ -244,7 +260,7 @@ const second_order_first_order = {
   workingOn: false
 }
 
-export const papers = [second_order_first_order,qnn_L_smoothness,qnn_freezing_pap, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, kv_pap,llm_advisor_paper]
+export const papers = [qnn_L_smoothness,qnn_freezing_pap, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, kv_pap,llm_advisor_paper]
 
 // Projects:,
 // export const project4 = {
