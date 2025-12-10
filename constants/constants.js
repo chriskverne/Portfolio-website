@@ -208,7 +208,7 @@ const quantum_transpilation = {
 const llm_advisor_paper = {
   title: "Aurora: Neuro-Symbolic AI Driven Advising Agent",
   description: [],
-  authors: ['Lorena Amanda Quincoso Lugones','Christopher Kverne', 'Nityam Shardakhrmin', 'Ana Carolina Oliveira' ,'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
+  authors: ['Lorena Amanda Quincoso Lugones','Christopher Kverne', 'Nityam Sharadkumar Bhimani', 'Ana Carolina Oliveira' ,'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
   conference: 'SAC 2026 (23%)',
   img: '',
   link: '',
