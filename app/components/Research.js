@@ -1,14 +1,18 @@
 import React from 'react'
 import Title from './Title'
-import Paper from './Paper'
 import Link from 'next/link'
-import { papers } from '@/constants/constants'
+import { FaFilePdf } from "react-icons/fa";
+
 
 const Research = () => {
   return (
     <div className='flex flex-col items-center'>
-      <div className='w-4/5'>
+      <div className='w-4/5 flex items-center'>
         <Title title={"Research Interests"} />
+        <p className='text-[1.5rem] md:text-[2rem] ml-8'>CV</p>
+        <a href={'/Christopher_Lukas_Kverne_CV.pdf'} target="_blank" rel="noopener noreferrer" style={{fontSize: '2.5rem', color: 'red'}}>
+          <FaFilePdf />
+        </a>
       </div>
       
       <div className='w-4/5 text-sm md:text-lg'>

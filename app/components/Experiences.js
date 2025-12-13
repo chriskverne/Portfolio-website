@@ -6,7 +6,7 @@ import { experiences } from '@/constants/constants'
 const Experiences = () => {
   return (
     <div className='flex flex-col items-center'>
-      <div className='w-4/5'>
+      <div className='w-4/5 flex items-center'>
         <Title title={"Work Experience"} />
       </div>
 
