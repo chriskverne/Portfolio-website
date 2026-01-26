@@ -229,13 +229,13 @@ const qnn_noise_pap = {
 }
 
 const qnn_freezing_pap = {
-  title: "Stochastic-Block Wise Optimization Algorithm",
+  title: "WSBD: Freezing-Based Optimizer for Quantum Neural Networks",
   description: [],
   authors: ['Christopher Kverne', 'Mayur Akewar', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
-  conference: 'AISTATS 2026',
+  conference: 'AISTATS 2026 (28%)',
   link: null,
-  isPublished: false,
-  underReview: true,
+  isPublished: true,
+  underReview: false,
   workingOn: false
 }
 
@@ -261,7 +261,7 @@ const second_order_first_order = {
   workingOn: false
 }
 
-export const papers = [qnn_L_smoothness,qnn_freezing_pap, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, llm_advisor_paper, kv_pap]
+export const papers = [qnn_freezing_pap,qnn_L_smoothness, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, llm_advisor_paper, kv_pap]
 
 // Projects:,
 // export const project4 = {
