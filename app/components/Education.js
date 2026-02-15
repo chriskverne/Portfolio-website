@@ -13,6 +13,19 @@ const Research = () => {
         <Title title={"Education"} />
       </div>
 
+      <div className='w-4/5 flex flex-col mb-4'>
+        <div className='flex items-center'>
+          <img src={'/columbia_log.jpg'} alt={`fiu logo`} className="h-14 mr-4" />
+          <div className='text-sm md:text-xl'>
+              <h3 className='font-semibold'>Columbia University</h3>
+            <div className='flex'>
+              <h3 className='font-semibold'>Incoming Master of Science:&nbsp;</h3>
+              <p className='italic'>Data Science</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className='w-4/5 flex flex-col'>
         <div className='flex items-center'>
           <img src={'/FIULogo.png'} alt={`fiu logo`} className="h-14 mr-4" />
@@ -51,7 +64,11 @@ const Research = () => {
             </div>
           )}
         </div>
+
       </div>
+    
+
+    
     </div>
   );
 }
