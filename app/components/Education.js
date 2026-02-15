@@ -14,20 +14,19 @@ const Research = () => {
       </div>
 
       <div className='w-4/5 flex flex-col mb-4'>
-        <div className='flex items-center'>
-          <img src={'/columbia_log.jpg'} alt={`fiu logo`} className="h-20 mr-4" />
-          <div className='text-sm md:text-xl'>
-              <h3 className='font-semibold'>Columbia University</h3>
-            <div className='flex'>
-              <h3 className='font-semibold'>Incoming Master of Science:&nbsp;</h3>
-              <p className='italic'>Data Science</p>
-            </div>
+        
+        <div className='flex items-start'>
+          <img src={'/columbia_log.jpg'} alt={`col logo`} className="h-20 mr-4" />
+          <div className='text-base md:text-xl'>
+            <h2 className='font-semibold'>Columbia University</h2>
+            <h3 className=''><span className='font-bold'>Incoming Master of Science:</span>&nbsp; Data Science</h3>
           </div>
         </div>
+
       </div>
 
       <div className='w-4/5 flex flex-col'>
-        <div className='flex items-center'>
+        <div className='flex items-start'>
           <img src={'/FIULogo.png'} alt={`fiu logo`} className="h-20 mr-4" />
           <div className='text-sm md:text-xl'>
             <div className='flex'>
@@ -38,16 +37,17 @@ const Research = () => {
               <h3 className='font-semibold'>Minor:&nbsp;</h3>
               <p className='italic'>Mathematics</p>
             </div>
+            <div className='flex align-middle'>
+              <h3 className='font-semibold text-xl'>GPA:</h3>
+              <p className='text-xl ml-1'>3.84 / 4.0</p>
+              <button className='ml-3 bg-[#14213d] text-white py-1 font-semibold text-sm rounded-md w-[7rem]' onClick={toggleCourseWork}>
+            {showCourseWork ? 'Hide Courses' : 'Show Courses'}
+             </button>
+            </div>
           </div>
         </div>
 
-        <div className='flex align-middle mt-2'>
-          <h3 className='font-semibold text-xl'>GPA:</h3>
-          <p className='text-xl ml-1'>3.84 / 4.0</p>
-          <button className='ml-3 bg-[#14213d] text-white py-1 font-semibold text-sm rounded-md w-[7rem]' onClick={toggleCourseWork}>
-            {showCourseWork ? 'Hide Courses' : 'Show Courses'}
-          </button>
-        </div>
+
 
         <div className='w-full'>
           {showCourseWork && (

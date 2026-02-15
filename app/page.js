@@ -17,9 +17,10 @@ export default function Home() {
     <main className={`${rubik.className} space-y-5`}>
       <NavBar />
       <Research />
+      <Education />
+
       <Experience />
       <Papers />
-      <Education />
       {/* <Projects /> */}
       <ContactMe />
     </main>
