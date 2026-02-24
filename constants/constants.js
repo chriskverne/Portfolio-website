@@ -233,7 +233,7 @@ const qnn_freezing_pap = {
   description: [],
   authors: ['Christopher Kverne', 'Mayur Akewar', 'Yuqian Huo', 'Tirthak Patel', 'Janki Bhimani'],
   conference: 'AISTATS 2026 (28%)',
-  link: 'https://arxiv.org/abs/2602.11383',
+  link: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_yVb-LMAAAAJ&citation_for_view=_yVb-LMAAAAJ:qjMakFHDy7sC',
   isPublished: true,
   underReview: false,
   workingOn: false
