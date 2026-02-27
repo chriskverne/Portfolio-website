@@ -211,7 +211,7 @@ const llm_advisor_paper = {
   authors: ['Lorena Amanda Quincoso Lugones','Christopher Kverne', 'Nityam Sharadkumar Bhimani', 'Ana Carolina Oliveira' ,'Agoritsa Polyzou', 'Christine Lisetti', 'Janki Bhimani'],
   conference: 'SAC 2026 (23%)',
   img: '',
-  link: '',
+  link: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_yVb-LMAAAAJ&citation_for_view=_yVb-LMAAAAJ:UeHWp8X0CEIC',
   isPublished: true,
   underReview: false,
   workingOn: false
@@ -261,7 +261,7 @@ const second_order_first_order = {
   workingOn: false
 }
 
-export const papers = [qnn_freezing_pap,qnn_L_smoothness, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, llm_advisor_paper, kv_pap]
+export const papers = [qnn_freezing_pap, llm_advisor_paper, qnn_L_smoothness, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, kv_pap]
 
 // Projects:,
 // export const project4 = {
