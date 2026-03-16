@@ -19,7 +19,8 @@ const Research = () => {
           <img src={'/columbia_log.jpg'} alt={`col logo`} className="h-20 mr-4" />
           <div className='text-base md:text-xl'>
             <h2 className='font-semibold'>Columbia University</h2>
-            <h3 className=''><span className='font-bold'>Incoming Master of Science:</span>&nbsp; Data Science</h3>
+            <h3 className=''>M.S Data Science</h3>
+            <h3 className='text-gray-600 text-sm md:text-md'>September 2026 - December 2027</h3>
           </div>
         </div>
 
@@ -29,21 +30,10 @@ const Research = () => {
         <div className='flex items-start'>
           <img src={'/FIULogo.png'} alt={`fiu logo`} className="h-20 mr-4" />
           <div className='text-sm md:text-xl'>
-            <div className='flex'>
-              <h3 className='font-semibold'>Bachelor of Science:&nbsp;</h3>
-              <p className='italic'>Computer Science</p>
-            </div>
-            <div className='flex'>
-              <h3 className='font-semibold'>Minor:&nbsp;</h3>
-              <p className='italic'>Mathematics</p>
-            </div>
-            <div className='flex align-middle'>
-              <h3 className='font-semibold text-xl'>GPA:</h3>
-              <p className='text-xl ml-1'>3.84 / 4.0</p>
-              <button className='ml-3 bg-[#14213d] text-white py-1 font-semibold text-sm rounded-md w-[7rem]' onClick={toggleCourseWork}>
-            {showCourseWork ? 'Hide Courses' : 'Show Courses'}
-             </button>
-            </div>
+              <h2 className='font-semibold'>Florida International University</h2>
+              <h3 className=''>B.S Computer Science</h3>
+              <h3 className='text-gray-600 text-sm md:text-md'>August 2022 - April 2026</h3>
+              {/* <button className='bg-[#14213d] text-white py-1 font-semibold text-sm rounded-md w-[7rem]' onClick={toggleCourseWork}>{showCourseWork ? 'Hide Courses' : 'Show Courses'}</button> */}
           </div>
         </div>
 
