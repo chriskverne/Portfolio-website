@@ -261,7 +261,7 @@ const second_order_first_order = {
   workingOn: false
 }
 
-export const papers = [qnn_freezing_pap, llm_advisor_paper, qnn_L_smoothness, qnn_noise_pap, qnn_cp_pap, quantum_transpilation, course_job_pap, kv_pap]
+export const papers = [qnn_freezing_pap, llm_advisor_paper, qnn_cp_pap, quantum_transpilation, course_job_pap]
 
 // Projects:,
 // export const project4 = {
