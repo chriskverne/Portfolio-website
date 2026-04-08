@@ -16,10 +16,10 @@ const Research = () => {
       <div className='w-4/5 flex flex-col mb-4'>
         
         <div className='flex items-start'>
-          <img src={'/columbia_log.jpg'} alt={`col logo`} className="h-20 mr-4" />
+          <img src={'/uchicagologo.png'} alt={`col logo`} className="h-20 mr-4" />
           <div className='text-base md:text-xl'>
-            <h2 className='font-semibold'>Columbia University</h2>
-            <h3 className=''>M.S Data Science</h3>
+            <h2 className='font-semibold'>University of Chicago</h2>
+            <h3 className=''>M.S Applied and Computational Mathematics</h3>
             <h3 className='text-gray-600 text-sm md:text-md'>September 2026 - December 2027</h3>
           </div>
         </div>
