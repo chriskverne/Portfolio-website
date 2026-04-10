@@ -17,7 +17,7 @@ const Research = () => {
       
       <div className='w-4/5 text-sm md:text-lg'>
         <p>
-          <strong>News:</strong> I&apos;m pleased to announce that I have been admitted to{' '} <strong style={{ color: '#800000' }}>the University of Chicago</strong>{' '} to start my Masters in applied and computational mathematics! 
+          <strong>News:</strong> I&apos;m pleased to announce that I have been admitted to{' '} <strong style={{ color: '#800000' }}>the University of Chicago</strong>{' '} to start my Masters in Applied Mathematics! 
           I&apos;m currently a Senior at FIU fortunate to be supervised by Professor <Link className='text-blue-600 underline' target='blank' href={'https://www.cis.fiu.edu/faculty-staff/janki-bhimani/'}>Janki Bhimani</Link> in 
           the <Link className='text-blue-600 underline' href={'https://damrl.cis.fiu.edu/'} target='_blank'>DaMRL</Link> lab.
           My research interests include <b>Optimization Theory</b>, <b>Statistical Inference</b>, and <b>Deep Learning</b>.

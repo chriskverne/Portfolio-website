@@ -19,7 +19,7 @@ const Research = () => {
           <img src={'/uchicagologo.png'} alt={`col logo`} className="h-20 mr-4" />
           <div className='text-base md:text-xl'>
             <h2 className='font-semibold'>University of Chicago</h2>
-            <h3 className=''>M.S Applied and Computational Mathematics</h3>
+            <h3 className=''>M.S Applied Mathematics</h3>
             <h3 className='text-gray-600 text-sm md:text-md'>September 2026 - December 2027</h3>
           </div>
         </div>
