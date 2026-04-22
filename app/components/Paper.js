@@ -4,7 +4,7 @@ import React from 'react'
 const Paper = ({paper}) => {
   return (
     <div className='rounded-md text-xs md:text-base'>
-      <p className='font-semibold'>- {paper.title}</p>
+      <p className='font-semibold'>{paper.title}</p>
       {paper.isPublished && (
         <>
           <Link href={paper.link} target='_blank'>
@@ -24,7 +24,7 @@ const Paper = ({paper}) => {
         <p className=' text-[#000000]'>Currently working on it</p>
       )}
 
-      <p className=''>
+      <p className='text-sm text-gray-600'>
         {paper.authors.map((author, index) => (
             <React.Fragment key={index}>
               {author === "Christopher Kverne" ? (
