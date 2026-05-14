@@ -66,7 +66,7 @@ const experience1 = {
   const experience2 = {
     company: 'DAMRL Laboratory',
     imgURL: '/daMRLLogo.png',
-    title: 'Undergraduate Research Assistant',
+    title: 'Research Assistant',
     startDate: 'November 2023',
     endDate: 'Present',
     subSections : [
@@ -141,7 +141,7 @@ const experience5 = {
 const sintef = {
     company: 'SINTEF',
     imgURL: '/sinteflogo.jpg',
-    title: 'Incoming Research Intern',
+    title: 'Research Intern',
     startDate: 'May 2026',
     endDate: 'August 2026',
 }
@@ -149,7 +149,7 @@ const sintef = {
 const university_washington =  {
     company: 'University of Washington',
     imgURL: '/udublogo.png',
-    title: 'Machine Learning Research Intern',
+    title: 'Research Intern',
     startDate: 'August 2025',
     endDate: 'August 2025',
 }
