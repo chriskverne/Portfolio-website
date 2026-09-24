@@ -23,7 +23,10 @@ const Research = () => {
   </p> */}
 
   <p className='mt-2'>
-    I&apos;m a Masters student at <strong style={{ color: '#800000' }}>the University of Chicago</strong> studying Applied Mathematics. I completed my B.S in CS at FIU in 2026 where I was fortunate to be supervised by Professor{' '}
+    I&apos;m a Masters student at <strong style={{ color: '#800000' }}>the University of Chicago</strong> studying Applied Mathematics.
+    My research lies broadly in <b>large-scale optimization</b> and <b>generative modelling</b>.
+    I&apos;m particularly interested in how generative models generalize — what properties of the data distribution they capture, and how this is shaped by the optimization methods used to train them.
+    Before UChicago, I completed my B.S. in CS at FIU in 2026, where I was fortunate to be supervised by Professor{' '}
     <Link className='text-blue-600 underline' target='_blank' href={'https://www.cis.fiu.edu/faculty-staff/janki-bhimani/'}>
       Janki Bhimani
     </Link>{' '}
@@ -31,16 +34,9 @@ const Research = () => {
     <Link className='text-blue-600 underline' href={'https://damrl.cis.fiu.edu/'} target='_blank'>
       DaMRL
     </Link>{' '}
-    lab. My research interests include <b>Optimization Theory</b>,{' '}
-    <b>Statistical Inference</b>, and <b>Information Geometry</b>. I&apos;m currently a research intern at SINTEF, where I work on
-    approximate optimization methods for combinatorial problems. Previously, I
-    interned at the University of Washington, focusing on vision
-    transformers and vision-language models. My research has been recognized
-    with the CRA Outstanding Undergraduate Researcher Award. I am fascinated by the mathematical principles that underlie learning and
-    reasoning — particularly within the framework of statistical learning
-    theory and information geometry. My work focuses on understanding the fundamental
-    limits of learning systems: how algorithms generalize, converge, and adapt
-    under various constraints.
+    lab. Previously, I was a research intern at SINTEF, where I worked on modelling SDEs through discrete Markov chains.
+    I also interned at the University of Washington, focusing on vision transformers and vision-language models.
+    My research has been recognized with the CRA Outstanding Undergraduate Researcher Award.
   </p>
 </div>
     </div>
