@@ -14,10 +14,8 @@ export default function Home() {
       <NavBar />
       <Research />
       <Education />
-
       <Experience />
       <Papers />
-      {/* <Projects /> */}
       <ContactMe />
     </main>
   );

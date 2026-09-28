@@ -1,9 +1,7 @@
 import React from 'react'
 import Title from './Title'
 import Paper from './Paper'
-import Link from 'next/link'
 import { papers } from '@/constants/constants'
-
 
 const Papers = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-// text-[#ff9500]
+
 const Title = ({title}) => {
   return (
     <div className='text-[#000000]'>

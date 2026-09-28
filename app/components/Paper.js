@@ -6,14 +6,12 @@ const Paper = ({paper}) => {
     <div className='rounded-md text-xs md:text-base'>
       <p className='font-semibold'>{paper.title}</p>
       {paper.isPublished && (
-        <>
-          <Link href={paper.link} target='_blank'>
-            <div className='flex items-center gap-2'>
-              <p className='italic'>{paper.conference}</p>
-              <p className="text-blue-600 underline">[Click to Read]</p>            
-            </div>
-          </Link>
-        </>
+        <Link href={paper.link} target='_blank'>
+          <div className='flex items-center gap-2'>
+            <p className='italic'>{paper.conference}</p>
+            <p className="text-blue-600 underline">[Click to Read]</p>
+          </div>
+        </Link>
       )}
 
       {paper.underReview && (
@@ -36,14 +34,6 @@ const Paper = ({paper}) => {
             </React.Fragment>
           ))}
       </p>
-
-      <div>
-        {paper.description.map((desc, index) =>(
-          <div key={index}>
-            <p>{desc}</p>
-          </div>
-        ))}
-      </div>
     </div>
   )
 }

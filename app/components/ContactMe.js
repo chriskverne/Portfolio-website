@@ -30,13 +30,6 @@ const ContactMe = () => {
       </div>
 
       <style jsx>{`
-        .flex {
-          display: flex;
-        }
-        .flex :global(svg) {
-          font-size: 2rem;
-          transition: transform 0.3s ease, color 0.3s ease;
-        }
         .flex :global(svg:hover) {
           transform: scale(1.2);
         }
