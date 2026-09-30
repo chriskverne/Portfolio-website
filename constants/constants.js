@@ -85,3 +85,14 @@ const qnn_freezing_pap = {
 }
 
 export const papers = [qnn_freezing_pap, llm_advisor_paper, qnn_cp_pap, quantum_transpilation, course_job_pap]
+
+// Honors and awards
+export const awards = [
+  { title: 'CRA Outstanding Undergraduate Researcher Award 2026', description: 'Runner up.' },
+  { title: 'CRA Outstanding Undergraduate Researcher Award 2025', description: 'Honorable Mention.' },
+  { title: 'Outstanding Graduate Student College of Computing', description: 'Selected as the most outstanding B.S CS student out of 350 graduates.' },
+  { title: 'Outstanding Senior Design Project', description: 'Selected as the best Capstone II project out of 120 projects.' },
+  { title: 'ACM SAC 2026', description: 'Best paper AI & Agents Award.' },
+  { title: 'FIU OURS Research Scholarship ($8000)', description: 'One of 20 students selected for fully funded Spring-Fall research.' },
+  { title: 'ACM HotStorage Travel Grant ($500)', description: 'Fully funded registration and travel to present my paper.' },
+]
