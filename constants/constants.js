@@ -96,3 +96,8 @@ export const awards = [
   { title: 'FIU OURS Research Scholarship ($8000)', description: 'One of 20 students selected for fully funded Spring-Fall research.' },
   { title: 'ACM HotStorage Travel Grant ($500)', description: 'Fully funded registration and travel to present my paper.' },
 ]
+
+// Reviewing and service
+export const services = [
+  'Reciprocal reviewer ICLR 2027',
+]

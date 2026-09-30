@@ -10,7 +10,7 @@ const Awards = () => {
         <ul className='space-y-2 text-xs md:text-base'>
           {awards.map((award, index) => (
             <li key={index}>
-              <span className='italic'>{award.title}</span> &ndash; {award.description}
+              {award.title} &ndash; {award.description}
             </li>
           ))}
         </ul>

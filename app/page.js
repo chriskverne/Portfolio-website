@@ -7,6 +7,7 @@ import Research from './components/Research';
 import ContactMe from './components/ContactMe';
 import Education from './components/Education';
 import Papers from './components/Papers'
+import Service from './components/Service'
 import Awards from './components/Awards'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Education />
       <Experience />
       <Papers />
+      <Service />
       <Awards />
       <ContactMe />
     </main>
